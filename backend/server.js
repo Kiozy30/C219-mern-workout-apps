@@ -53,6 +53,10 @@ app.post('/login', async (req, res) => {
   }
 });
 
+app.get("/", (req, res) => {
+  res.send("Welcome to the Workout API! The server is running.");
+});
+
 // Middleware:
 // any code that executes between us getting a request on the server
 // and us sending a response back to the client
