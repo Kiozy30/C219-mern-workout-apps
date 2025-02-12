@@ -14,9 +14,9 @@ const mongoose = require("mongoose");
 const workoutRoutes = require("./routes/workouts");
 const userRoutes = require('./routes/user');
 
-
 // Set up the express app
 const app = express();
+
 
 // Sign-up
 app.post('/signup', async (req, res) => {
